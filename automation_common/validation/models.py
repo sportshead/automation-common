@@ -126,7 +126,7 @@ class Save(Effect):
     fail: ValidatedAutomation
     success: ValidatedAutomation
     dc: Optional[IntExpression]
-    adv: Optional[AdvantageType]
+    adv: Optional[IntExpression]
 
 
 # --- damage ---
